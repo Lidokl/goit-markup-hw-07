@@ -76,9 +76,7 @@
 }
 
 .checkbox__form {
-  @include centered();
- 
-  align-items: center;
+  @include flex($jc:center,$ai:center);
   
 }
 
